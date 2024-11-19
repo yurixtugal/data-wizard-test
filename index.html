@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp Adventure Landing</title>
+    <style>
+
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f1e3;
+            color: #333;
+        }
+
+        .header {
+            background-color: #8b4513;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Georgia', serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .intro h2 {
+            font-size: 2.5rem;
+            color: #8b4513;
+        }
+
+        .intro p {
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 0;
+        }
+
+        .feature {
+            width: 30%;
+            background-color: #d2b48c;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h3 {
+            color: #8b4513;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            color: #555;
+        }
+
+        .wizard-section {
+            margin-top: 60px;
+            padding: 40px;
+            background-color: #f4a460;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .wizard-section h2 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+
+            .feature {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        Camp Adventure Awaits
+    </header>
+
+    <section class="hero">
+        <h1>Discover the Wild</h1>
+    </section>
+    <div style="background-color: aqua; padding: 20px;">
+        <script src="https://simply36090729-dev.s3.us-east-1.amazonaws.com/public/data-wizard-embed/my-test-component.umd.cjs"></script>
+        <data-wizard-component
+        data-wizard-id="GGGG-GGGG-GGGG"
+        data-wizard-step-id="GGGG-GGGG-1GGG"
+        team-id="QO49-KPXN-GYPW"
+        is-web-component="true"
+      ></data-wizard-component>
+    </div>
+    <div class="container">
+        <section class="intro">
+            <h2>Join Our Outdoor Adventure</h2>
+            <p>Experience the thrill of the great outdoors with our expertly designed camps and trails. Whether you're a
+                seasoned explorer or a first-time camper, we have something special just for you.</p>
+        </section>
+
+
+        <section class="features">
+            <div class="feature">
+                <h3>Guided Tours</h3>
+                <p>Explore the wilderness with our expert guides and discover nature like never before. From mountain
+                    peaks to serene lakes, there's an adventure waiting for you.</p>
+            </div>
+            <div class="feature">
+                <h3>Cozy Cabins</h3>
+                <p>Stay in our rustic cabins with all the essentials. After a long day of adventure, you'll love
+                    relaxing in the comfort of nature’s embrace.</p>
+            </div>
+            <div class="feature">
+                <h3>Outdoor Cooking</h3>
+                <p>Experience the joy of cooking over a campfire. Our team will guide you through preparing delicious
+                    meals with simple, fresh ingredients.</p>
+            </div>
+        </section>
+
+        <!-- Wizard Section Placeholder -->
+        <section class="wizard-section">
+            <h2>Start Your Journey</h2>
+            <p>Ready to embark on your adventure? Complete the steps below to plan your perfect camping experience.</p>
+            <!-- You will integrate the wizard component here -->
+        </section>
+    </div>
+
+    <footer class="footer">
+        &copy; 2024 Camp Adventure. All Rights Reserved.
+    </footer>
+</body>
+
+</html>
